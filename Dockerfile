@@ -1,6 +1,7 @@
-FROM ubuntu
-MAINTAINER Kimbro Staken
-
+FROM nodejs
+MAINTAINER sviluppatore1
+RUN mkdir /var/www
+RUN copy index.jsp
 #RUN apt-get install -y software-properties-common python
 #RUN add-apt-repository ppa:chris-lea/node.js
 #RUN echo "deb http://us.archive.ubuntu.com/ubuntu/ precise universe" >> /etc/apt/sources.list
