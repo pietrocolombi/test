@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Ciao, benvenuto....sono un esempio di codice nodeJS\n');
+  res.send('Ciao, benvenuto....sono un esempio di codice nodeJS fatto da sviluppatore1\n');
 });
 
 app.get('/pietro', (req, res) => {
