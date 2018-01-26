@@ -1,0 +1,42 @@
+{
+  "name": "Customer",
+  "plural": "Customers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "CustomerID": {
+      "type": "string",
+      "required": true
+    },
+    "CustomerName": {
+      "type": "string",
+      "required": true
+    },
+    "CustomerSurname": {
+      "type": "string",
+      "required": true
+    },
+    "CustomerAddress": {
+      "type": "string"
+    },
+    "CustomerCity": {
+      "type": "string"
+    },
+    "CustomerNation": {
+      "type": "string"
+    },
+    "CustomerPhone": {
+      "type": "number"
+    },
+    "CustomerAge": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
