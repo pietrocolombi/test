@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/pietro', (req, res) => {
-  res.send('Ciao, benvenuto....sono Pietro e Paolo\n');
+  res.send('Ciao, benvenuto....sono Pietroo\n');
 });
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
